@@ -26,7 +26,8 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #396E94;    
+    background-color: #396E94; 
+    margin-bottom: 100px   
 }
 
 body {
@@ -148,4 +149,8 @@ footer .social img {
 
 main section img {
     box-sizing: border-box;
+}
+
+.mountains {
+    margin-bottom: 200px;
 }
