@@ -1,4 +1,7 @@
+/*CSS file made for the WWR website named index.html*/
+/*Import fonts from Google for custom fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap');
+
 
 #content {
     max-width: 1600px;
