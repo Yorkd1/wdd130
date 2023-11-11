@@ -269,3 +269,83 @@ nav {
         margin-top: 25px;
     }
 }
+
+/* Saftey Tips page css start*/ 
+
+.safety-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.list {
+    text-align: left;
+    grid-column: 2/4;
+    grid-row: 2/5;
+}
+
+.heading {
+    margin: 50px auto;
+    font-size: 32px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#safety-title {
+    font-family: "Permanent Marker", Helvetica, sans-serif;
+}
+
+#bullet_list {
+    margin: 50px auto;
+    justify-self: center;
+    align-self: center;
+    list-style-position: outside;
+}
+
+ul {
+    background: #987A5A;
+    font-size: 22px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+
+.helmets_lifejackets {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.rattle_snake {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.group_img {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.river-portrait {
+    grid-column: 4;
+    grid-row: 2/5;  
+}
+
+#helm_jack-img {
+    width: 400px;
+}
+
+#snake-img {
+    width: 400px;
+}
+
+#group-img {
+    width: 400px;
+}
+
+#river-img {
+    width: 600px;
+    height: 1000px;
+}
