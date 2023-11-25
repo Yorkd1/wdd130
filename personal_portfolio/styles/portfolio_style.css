@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Poltawski+Nowy&display=swap');
+
+
+.logo {
+    width: 150px;
+    margin: auto;
+}
+
+#logo_link {
+    height: 150px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a {
+    text-align: center;
+    color: #161413;
+    margin: 0 auto;
+    padding: 50px;
+    text-decoration: none;
+    font-family:  "Poltawski Nowy", "Archivo", sans-serif;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E1B533;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: #3A83B6;
+    color: #E4E4E4;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr .5fr;
+    position: relative;
+}
+
+.banner {
+    z-index: -1;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+#banner_img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.profile {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#profile_img {
+    width: 100%;
+    margin: 10px auto;
+}
+.who_am_i {
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.who_am_i h1 {
+    font-family: "Poltawski Nowy", "Archivo", sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.who_am_i p {
+    font-family: "Archivo", Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #E4E4E4;
+    margin: 10px auto;
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.social {
+    align-content: right;
+}
+
+#facebook_icon {
+    width: 75px;
+}
+
+#twitter_icon {
+    width: 75px;
+}
+
+#linkedin_icon {
+    width: 75px;
+}
