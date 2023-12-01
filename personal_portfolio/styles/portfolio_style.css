@@ -39,7 +39,7 @@ header {
     grid-template-columns: 150px auto;
 }
 
-main {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr .5fr;
@@ -100,6 +100,7 @@ footer {
     height: 100%;
     margin: 10px auto;
     font-size: 24px;
+    font-family:  "Poltawski Nowy", "Archivo", sans-serif;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -131,3 +132,70 @@ footer {
     color: white;
     transform: rotateY(180deg);
   }
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .25fr 1fr 1fr .25fr;
+}
+
+#can-do {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#can-do h1 {
+    margin: 30px auto;
+    font-size: 50px;
+    font-family:  "Poltawski Nowy", "Archivo", sans-serif;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+}
+
+#can-do p {
+    margin: 20px auto;
+    font-family: "Archivo", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#python-icon {
+    grid-column: 2;
+    grid-row: 3;
+    margin: auto;
+    align-content: center;
+    
+}
+#python-icon:hover, #html-icon:hover, #css-icon:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#html-icon {
+    grid-column: 1;
+    grid-row: 3;
+    margin: auto;
+    align-content: center;
+}
+
+#css-icon {
+    grid-column: 3;
+    grid-row: 3;
+    margin: auto;
+    align-content: center;
+}
