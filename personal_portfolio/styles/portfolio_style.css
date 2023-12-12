@@ -146,7 +146,7 @@ that the flip itself goes out of the box on hover (remove perspective if you don
 }
 
 #can-do h1 {
-    margin: 30px auto;
+    margin: 25px auto;
     font-size: 50px;
     font-family:  "Poltawski Nowy", "Archivo", sans-serif;
     text-shadow: 2px 2px gray;
@@ -154,7 +154,7 @@ that the flip itself goes out of the box on hover (remove perspective if you don
 }
 
 #can-do p {
-    margin: 20px auto;
+    margin: 100px auto;
     font-family: "Archivo", Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
