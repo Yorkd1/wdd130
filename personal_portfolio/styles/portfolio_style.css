@@ -16,7 +16,6 @@ nav a {
     text-align: center;
     color: #161413;
     margin: 0 auto;
-    padding: 50px;
     text-decoration: none;
     font-family:  "Poltawski Nowy", "Archivo", sans-serif;
     font-size: 30px;
@@ -24,9 +23,12 @@ nav a {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #E1B533;
     width: 100%;
+    opacity: 90%;
+    flex-wrap: wrap;
 }
 
 nav a:hover {
@@ -54,33 +56,35 @@ header {
 
 #banner_img {
     width: 100%;
-    margin: 10px auto;
+    height: 100%;
+    margin: auto;
 }
 
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #E4E4E4;
-    margin: 10px auto;
+    margin: auto;
     padding: 25px;
     text-align: center;
-    width: 100%;
 }
 
 .social {
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
 }
 
 #facebook_icon {
-    width: 75px;
+    width: 50px;
 }
 
 #twitter_icon {
-    width: 75px;
+    width: 50px;
 }
 
 #linkedin_icon {
-    width: 75px;
+    width: 50px;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate 
@@ -132,7 +136,29 @@ that the flip itself goes out of the box on hover (remove perspective if you don
     background-color: #3A83B6;
     color: white;
     transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    
   }
+
+  .card-text {
+    font-size: 11px;
+  }
+
+  .card-subtitle {
+    font-size: 11px;
+  }
+
+  .card-title {
+    font-size: 10vm;
+  }
+
+  @media (min-width: 768px) {
+    .card-text, .card-subtitle, .card-title {
+        font-size: 24px;
+    }
+  }
+
 
 .skills-grid {
     display: grid;
@@ -265,3 +291,6 @@ that the flip itself goes out of the box on hover (remove perspective if you don
     text-align: left;
     padding: 20px 20px;
 }
+
+/* @media screen {
+    min-width: 475px; } */
