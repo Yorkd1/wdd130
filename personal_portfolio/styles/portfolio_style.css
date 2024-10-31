@@ -49,7 +49,7 @@ header {
 }
 
 .banner {
-    z-index: -1;
+    z-index: -1; 
     grid-column: 1/4;
     grid-row: 1/4;
 }
@@ -278,7 +278,7 @@ that the flip itself goes out of the box on hover (remove perspective if you don
 #achieve-img {
     grid-column: 3;
     grid-row: 1/4;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 #done-text {
