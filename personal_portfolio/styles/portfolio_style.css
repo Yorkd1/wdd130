@@ -307,17 +307,30 @@ that the flip itself goes out of the box on hover (remove perspective if you don
     .card-text {
         font-size: 18px;
     }
+    #can-do h1 {
+        margin: 25px auto;
+    }
+    #can-do p {
+        margin: 30px auto;
+    }
     #what_i_did {
-        padding-left: 20px;
+        padding-left: 0px;
+        text-align: center;
     }
     #what_i_did h1 {
-        font-size: 25px;
+        font-size: 55px;
     }
     #done-text {
         margin: auto 20px;
-        font-size: 15px;
+        font-size: 25px;
+    }
+    .social {
+        gap: 1em;
     }
 
+    #achieve-img {
+        display: none;
+    }
     /* Substituting for hamburger menu */
     /* #desktop-nav {
         display: none;
