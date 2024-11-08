@@ -8,66 +8,67 @@
     <link rel="stylesheet" href="styles/portfolio_style.css">
 </head>
 <body>
-    <div>
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/portfolio_logo.png" alt="DGY Logo">
-            </a>
-            <nav id="desktop-nav">
-                <a href="index.html">Home</a>
-                <a href="skills.html">Skills</a>
-                <a href="projects_and_achievements.html">Projects and Achievements</a>
-            </nav>
-            <nav id="hamburger-nav">
-                <div class="hamburger-menu">
-                    <div class="hamburger-icon" onclick="toggleMenu()">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+        <div>
+            <header>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/portfolio_logo.png" alt="DGY Logo">
+                </a>
+                <nav id="desktop-nav">
+                    <a href="index.html">Home</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects_and_achievements.html">Projects and Achievements</a>
+                </nav>
+                <nav id="hamburger-nav">
+                    <div class="hamburger-menu">
+                        <div class="hamburger-icon" onclick="toggleMenu()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu-links">
+                            <a href="index.html" onclick="toggleMenu()">Home</a>
+                            <a href="skills.html" onclick="toggleMenu()">Skills</a>
+                            <a href="projects_and_achievements.html" onclick="toggleMenu()">Projects and Achievements</a>
+                        </div>
                     </div>
-                    <div class="menu-links">
-                        <a href="index.html" onclick="toggleMenu()">Home</a>
-                        <a href="skills.html" onclick="toggleMenu()">Skills</a>
-                        <a href="projects_and_achievements.html" onclick="toggleMenu()">Projects and Achievements</a>
+                </nav>
+            </header>
+            <main class="skills-grid">
+                <section id="can-do">
+                    <h1>What I can do:</h1>
+                    <p>My skills and abilities include programming in Python, HTML, CSS, JavaScript, database design, and queries using MySQL. 
+                        I enjoy collaborating with others on various projects, as I have found working well with others is key to building lasting
+                        relationships, and creating successful programs. My goal is to continue to educate and enhance these skills to be of value 
+                        to those of whom I have the privilege of working with.</p>
+                </section>
+                <section class="skill-icons">
+                    <div id="python-icon">
+                        <img src="images/python.png" alt="python logo" style="width:300px;">
                     </div>
+                    <div id="html-icon">
+                        <img src="images/html-5.png" alt="html logo" style="width:300px;">
+                    </div>
+                    <div id="css-icon">
+                        <img src="images/css.png" alt="css logo" style="width:300px;">
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>Portfolio &copy; 2023 - David York</p>
+                <p><a href="site-plan.html">Site Plan</a></p>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img id="facebook_icon" src="images/facebook.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img id="twitter_icon" src="images/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                        <img id="linkedin_icon" src="images/linkedin_icon.png" alt="linkedin icon">
+                    </a>
                 </div>
-            </nav>
-        </header>
-        <main class="skills-grid">
-            <section id="can-do">
-                <h1>What I can do:</h1>
-                <p>My skills and abilities include programming in Python, HTML, CSS, JavaScript, database design, and queries using MySQL. 
-                    I enjoy collaborating with others on various projects, as I have found working well with others is key to building lasting
-                    relationships, and creating successful programs. My goal is to continue to educate and enhance these skills to be of value 
-                    to those of whom I have the privilege of working with.</p>
-            </section>
-            <section class="skill-icons">
-                <div id="python-icon">
-                    <img src="images/python.png" alt="python logo" style="width:300px;">
-                </div>
-                <div id="html-icon">
-                    <img src="images/html-5.png" alt="html logo" style="width:300px;">
-                </div>
-                <div id="css-icon">
-                    <img src="images/css.png" alt="css logo" style="width:300px;">
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p>Portfolio &copy; 2023 - David York</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img id="facebook_icon" src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img id="twitter_icon" src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://linkedin.com" target="_blank">
-                    <img id="linkedin_icon" src="images/linkedin_icon.png" alt="linkedin icon">
-                </a>
-            </div>
-        </footer>
-    </div>
+            </footer>
+        </div>
+    <script src="script.js"></script>
 </body>
 </html>

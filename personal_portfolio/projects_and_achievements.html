@@ -8,74 +8,75 @@
     <link rel="stylesheet" href="styles/portfolio_style.css">
 </head>
 <body>
-    <div>
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/portfolio_logo.png" alt="DGY Logo">
-            </a>
-            <nav id="desktop-nav">
-                <a href="index.html">Home</a>
-                <a href="skills.html">Skills</a>
-                <a href="projects_and_achievements.html">Projects and Achievements</a>
-            </nav>
-            <nav id="hamburger-nav">
-                <div class="hamburger-menu">
-                    <div class="hamburger-icon" onclick="toggleMenu()">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+        <div>
+            <header>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/portfolio_logo.png" alt="DGY Logo">
+                </a>
+                <nav id="desktop-nav">
+                    <a href="index.html">Home</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects_and_achievements.html">Projects and Achievements</a>
+                </nav>
+                <nav id="hamburger-nav">
+                    <div class="hamburger-menu">
+                        <div class="hamburger-icon" onclick="toggleMenu()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu-links">
+                            <a href="index.html" onclick="toggleMenu()">Home</a>
+                            <a href="skills.html" onclick="toggleMenu()">Skills</a>
+                            <a href="projects_and_achievements.html" onclick="toggleMenu()">Projects and Achievements</a>
+                        </div>
                     </div>
-                    <div class="menu-links">
-                        <a href="index.html" onclick="toggleMenu()">Home</a>
-                        <a href="skills.html" onclick="toggleMenu()">Skills</a>
-                        <a href="projects_and_achievements.html" onclick="toggleMenu()">Projects and Achievements</a>
+                </nav>
+            </header>
+            <main class="p_and_a-grid">
+                <!-- <div id="data-pic">
+                    <img src="images/data.jpg" alt="picture of computer with data" style="width:100%;">
+                </div> -->
+                <section>
+                    <div id="what_i_did">
+                        <h1>What I have done:</h1>
                     </div>
+                    <div id="done-text">
+                        <p>Personal projects that I was able to create include a number guessing game between a user and 
+                            a computer utilizing Python. Also making this portfolio using HTML, CSS, and JavaScript. I've also been able to dabble in 
+                            shell scripting so look forward to my future projects on those.</p>
+                        <p> Projects in progress include:
+                            <ul>
+                                <li>Creating a 2FA program utilizing a database in Python.</li>
+                                <li>Making a portfolio for a piano / vocal instructor.</li>
+                                <li>Creating a rock, paper, scissors script utilizing terminal inputs in Linux.</li>
+                                <li>Utilizing an Arduino to create an RGB LED color mixing program.</li>
+                            </ul>
+                        </p>
+                        <p>Achievements include learning to speak Spanish fluently during a LDS mission in the Dominican 
+                            Republic for two years. I am an Eagle Scout. I also currently serve in a voluntary role in The Church of Jesus Christ of Latter-day Saints.</p>
+                    </div>
+                </section>
+                <div>
+                    <img id="achieve-img" src="images/achieve.jpg" alt="person with a outstretched arms on mountiantop">
                 </div>
-            </nav>
-        </header>
-        <main class="p_and_a-grid">
-            <!-- <div id="data-pic">
-                <img src="images/data.jpg" alt="picture of computer with data" style="width:100%;">
-            </div> -->
-            <section>
-                <div id="what_i_did">
-                    <h1>What I have done:</h1>
+            </main>
+            <footer>
+                <p>Portfolio &copy; 2023 - David York</p>
+                <p><a href="site-plan.html">Site Plan</a></p>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img id="facebook_icon" src="images/facebook.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img id="twitter_icon" src="images/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                        <img id="linkedin_icon" src="images/linkedin_icon.png" alt="linkedin icon">
+                    </a>
                 </div>
-                <div id="done-text">
-                    <p>Personal projects that I was able to create include a number guessing game between a user and 
-                        a computer utilizing Python. Also making this portfolio using HTML, CSS, and JavaScript. I've also been able to dabble in 
-                        shell scripting so look forward to my future projects on those.</p>
-                    <p> Projects in progress include:
-                        <ul>
-                            <li>Creating a 2FA program utilizing a database in Python.</li>
-                            <li>Making a portfolio for a piano / vocal instructor.</li>
-                            <li>Creating a rock, paper, scissors script utilizing terminal inputs in Linux.</li>
-                            <li>Utilizing an Arduino to create an RGB LED color mixing program.</li>
-                        </ul>
-                    </p>
-                    <p>Achievements include learning to speak Spanish fluently during a LDS mission in the Dominican 
-                        Republic for two years. I am an Eagle Scout. I also currently serve in a voluntary role in The Church of Jesus Christ of Latter-day Saints.</p>
-                </div>
-            </section>
-            <div>
-                <img id="achieve-img" src="images/achieve.jpg" alt="person with a outstretched arms on mountiantop">
-            </div>
-        </main>
-        <footer>
-            <p>Portfolio &copy; 2023 - David York</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img id="facebook_icon" src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img id="twitter_icon" src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://linkedin.com" target="_blank">
-                    <img id="linkedin_icon" src="images/linkedin_icon.png" alt="linkedin icon">
-                </a>
-            </div>
-        </footer>
-    </div>
+            </footer>
+        </div>
+    <script src="script.js"></script>
 </body>
 </html>

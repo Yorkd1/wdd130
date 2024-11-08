@@ -29,7 +29,6 @@ nav {
     align-items: center;
     background-color: #f0be29;
     width: 100v;
-    opacity: 90%;
     flex-wrap: wrap;
 }
 
@@ -76,11 +75,13 @@ footer {
 /* Hamburger Menu */
 #hamburger-nav {
     display: none;
+
 }
 
 .hamburger-menu {
     position: relative;
     display: inline-block;
+    margin-right: 2.5rem;
 }
 
 .hamburger-icon {
@@ -89,7 +90,6 @@ footer {
     justify-content: space-between;
     height: 24px;
     width: 30px;
-    cursor: pointer;
 }
 
 .hamburger-icon span {
@@ -103,7 +103,7 @@ footer {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: #3A83B6;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -154,6 +154,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr .5fr;
     position: relative;
+    z-index: -1;
 }
 
 .banner {
@@ -408,5 +409,6 @@ that the flip itself goes out of the box on hover (remove perspective if you don
     #hamburger-nav {
         display: flex;
         flex-direction: column;
+        align-items: end;
     }
 }
