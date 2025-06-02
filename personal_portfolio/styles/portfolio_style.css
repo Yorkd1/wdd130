@@ -250,7 +250,9 @@ that the flip itself goes out of the box on hover (remove perspective if you don
 }
 
 #can-do p {
-    margin: 150px;
+    max-width: 900px;
+    margin: 150px auto;
+    padding: 0 20px;
     font-family: "Archivo", Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
